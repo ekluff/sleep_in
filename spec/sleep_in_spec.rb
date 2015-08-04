@@ -7,4 +7,8 @@ describe('Time#sleep_in') do
     expect(Time.new(2015,8,4).sleep_in).to(eq(2))
   end
 
+  it('returns true for weekend days and false for weekday days') do
+    expect(Time.new(2015,8,1).sleep_in).to(eq(true))
+  end
+
 end
