@@ -11,4 +11,8 @@ describe('Time#sleep_in') do
     expect(Time.new(2015,8,1).sleep_in).to(eq(true))
   end
 
+  it('returns "You can sleep in!" for weekend days') do
+    expect(Time.new(2015,8,1).sleep_in).to(eq("You can sleep in!"))
+  end
+
 end
