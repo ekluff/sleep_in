@@ -1,0 +1,7 @@
+Behavior: It takes a date and tells the day of the week.
+Input: 8/4/2015
+Output: Tuesday
+
+Behavior: If the date is a Saturday or Sunday, it returns that you can sleep in
+Input: 8/2/2015
+Output: You can sleep in
