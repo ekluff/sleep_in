@@ -15,7 +15,7 @@ class Time
     elsif day_number == 5
       "Friday"
     else
-      "What alien world is this that has no dates?" #My first Easter egg :^)
+      "What alien world is this that has no dates?"
     end
 
   end
